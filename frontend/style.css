@@ -1,0 +1,81 @@
+/* teks */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(5, 20, 78);
+}
+
+/* Judul bagian atas */
+header {
+    border-bottom: 1px solid rgb(165, 43, 153);
+    padding-bottom: 10px;
+}
+
+/* Mengatur bagian form dan tabel */
+section {
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+/* Judul */
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+/* Form */
+form {
+    width: 350px;
+    max-width: 100%;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+/* Tombol */
+button {
+    margin-top: 15px;
+    padding: 8px 12px;
+    background-color: rgb(62, 28, 181);
+    color: rgb(233, 226, 226);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #eeeeee;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,
+td {
+    border: 1px solid rgb(13, 13, 18);
+    padding: 8px;
+    text-align: left;
+}
+
+/* Agar tabel bisa digeser jika layar kecil */
+section {
+    overflow-x: auto;
+}
